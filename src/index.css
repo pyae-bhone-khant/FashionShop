@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* ----------------------------
+   Tailwind v4 Custom Styles
+----------------------------- */
+
+/* ----------------------------
+   Custom Colors (CSS Variables)
+----------------------------- */
+:root {
+  --color-primary: #2563eb;      /* Blue 600 */
+  --color-secondary: #7c3aed;    /* Violet 600 */
+  --color-brand-yellow: #facc15; /* Amber 400 */
+  --color-brand-green: #16a34a;  /* Green 600 */
+  --color-brand-blue: #0ea5e9;   /* Sky 500 */
+  --color-brand-white: #f9fafb;  /* Gray 50 */
+}
+
+/* ----------------------------
+   Custom Components
+----------------------------- */
+@layer components {
+
+  /* Search bar inside group */
+ .search-bar {
+  width: 0; /* collapsed */
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  border: none;
+  background-color: var(--color-brand-white);
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* Expand on hover */
+.search-bar:hover {
+  width: 300px; /* exact 300px */
+  border: 1px solid #6b7280; /* Tailwind gray-500 */
+  background-color: #f3f4f6; /* Tailwind gray-100 */
+}
+
+  /* Form input component */
+  .form-input {
+    @apply w-full rounded-full border border-gray-300 px-2 py-1 mb-4;
+    background-color: var(--color-brand-white);
+  }
+
+}
+
+/* ----------------------------
+   Custom Utilities
+----------------------------- */
+@layer utilities {
+
+  /* Hero background gradient */
+  .hero-bg-color {
+    @apply bg-gradient-to-r from-gray-300/80 to-gray-100 dark:from-gray-900 dark:to-gray-800 dark:text-white;
+  }
+
+  /* Text color utilities using CSS variables */
+  .text-primary { color: var(--color-primary); }
+  .text-secondary { color: var(--color-secondary); }
+  .bg-primary { background-color: var(--color-primary); }
+  .bg-secondary { background-color: var(--color-secondary); }
+
+  /* Container padding */
+  .container-padding { padding: 1rem; }
+  .container-padding-sm { padding: 3rem; }
+
+}
+
+ 
