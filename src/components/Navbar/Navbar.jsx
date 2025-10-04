@@ -6,7 +6,7 @@ export default function Navbar() {
   const [open , setOpen] = useState(false)
   return (
     <> 
-     <nav className="flex justify-between w-full py-4 bg-black shadow-lg text-white items-center px-4 ">
+     <nav className="flex justify-between shadow-2xl w-full py-4 bg-black  text-white items-center px-4 ">
       <div className="flex gap-3" >
         <Facebook  size={28} />
         <Instagram size={28} />

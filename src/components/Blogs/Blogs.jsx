@@ -1,6 +1,6 @@
 export default function Blogs() {
   return (
-    <div className="bg-white mt-6 px-6 py-10">
+    <div className="bg-white mt-6 px-20 py-10">
       <h2 className="text-3xl font-bold text-center mb-8">
         Latest <span className="text-red-500">Blogs</span>
       </h2>
@@ -23,7 +23,7 @@ export default function Blogs() {
 
         {/* Card 2 */}
         <div
-          className="h-64 bg-center bg-cover rounded-xl shadow-lg relative group"
+          className="h-64 bg-center  bg-cover rounded-xl shadow-lg relative group"
           style={{
             backgroundImage:
               "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShTguaNMUR6nvgxVozZGyRXxLTl-CVFk8xjpMwD6CASxYIAui2epgcQnGWDi_Llxxpip4&usqp=CAU')",
@@ -46,7 +46,8 @@ export default function Blogs() {
             <h3 className="text-white text-xl font-semibold">Women’s Styles</h3>
           </div>
         </div>
-      </div>
+      </div> 
+      <div className="border border-gray-600 mt-3"></div>
     </div>
   );
 }
