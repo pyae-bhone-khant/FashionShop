@@ -3,6 +3,7 @@ import Blogs from "./components/Blogs/Blogs"
 import Navbar from "./components/Navbar/Navbar"
 import Catgory from "./components/Category/Category"
 import Catgory2 from "./components/Category/Category2"
+import Footer from "./components/Footer/Footer"
 
 export default function App () {
   return (     
@@ -14,6 +15,7 @@ export default function App () {
                  <Herro /> 
                  <Blogs />
                  <Catgory2 />
+                 <Footer />
 
                </div>
        
