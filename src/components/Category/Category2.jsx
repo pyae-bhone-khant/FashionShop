@@ -1,9 +1,9 @@
 export default function  Catgory2() {
     return ( 
         
-        <div className="flex   flex-col sm:flex-col md:flex-row lg:flex-row gap-6  justify-between  md:px-50"> 
-          <div className="flex w-150 text-center items-center flex-col justify-center " > 
-            <img  className="w-150 h-70  " src="https://blog-landing-xi.vercel.app/assets/image3-BrreTWNx.jpg" alt="Image url" /> 
+        <div className="flex   flex-col sm:flex-col md:flex-row lg:flex-row gap-6  justify-between px-4 md:px-50"> 
+          <div className="flex md:w-150 w-100  text-center items-center flex-col justify-center " > 
+            <img  className="w-100 md:w-150 h-70  " src="https://blog-landing-xi.vercel.app/assets/image3-BrreTWNx.jpg" alt="Image url" /> 
             <h1 className="mt-2 text-red-400">PERFUMES</h1>
             <p className=" mt-2 text-3xl">Wearing this will make everyone love you</p>
             <h2 className="mt-2">It's women love</h2>
@@ -46,28 +46,28 @@ export default function  Catgory2() {
           {/* other class  */}
              <div>
 
-          <div className="flex w-70 flex-col    " >
-            <h1 className="w-70 h-10 justify-center mb-4 text-center flex items-center bg-black text-white rounded">Most Popular</h1>
+          <div className="flex w-100 md:w-70 flex-col    " >
+            <h1 className=" md:w-70 w-100 h-10 justify-center mb-4 text-center flex items-center bg-black text-white rounded">Most Popular</h1>
               <div className="flex px-2 ">
                 <img className="w-25 h-20 rounded mt-2" src="https://blog-landing-xi.vercel.app/assets/image2-CAyfVW0l.jpg" alt="" />
                 <p className="pl-6 text-gray-600">— I'll be in your neighborhood doing errands this…</p> 
                 
               </div> 
-              <div className=" w-50 mt-2 ml-20 border border-gray-300" ></div> 
+              <div className=" w-80 md:w-50 mt-2 ml-20 border border-gray-300" ></div> 
                <div className="flex px-2 ">
                 <img className="w-25 h-20 rounded mt-2" src="https://blog-landing-xi.vercel.app/assets/image3-BrreTWNx.jpg" alt="" />
                 <p className="pl-6 text-gray-600">— I'll be in your neighborhood doing errands this…</p> 
                 
               </div> 
-              <div className=" w-50 mt-2 ml-20 border border-gray-300" ></div> <div className="flex px-2 ">
-                <img className="w-70 h-20 rounded mt-2" src="https://blog-landing-xi.vercel.app/assets/image4-CRcFZCf5.jpg" alt="" />
+              <div className="  w-80 md:w-50 mt-2 ml-20 border border-gray-300" ></div> <div className="flex px-2 ">
+                <img className="  w-35 md:w-70 h-20 rounded mt-2" src="https://blog-landing-xi.vercel.app/assets/image4-CRcFZCf5.jpg" alt="" />
                 <p className="pl-6 text-gray-600">— I'll be in your neighborhood doing errands this…</p> 
                 
               </div> 
-              <div className=" w-50 mt-2 ml-20 border border-gray-300 " ></div>
+              <div className=" w-80 md:w-50 mt-2 ml-20 border border-gray-300 " ></div>
           </div>  
-                  <div className="Flex w-70 flex-col mt-10 text-center">
-                    <h1 className="w-70 mt-2 h-10 justify-center mb-4 text-center flex items-center bg-black text-white rounded" >About us</h1>
+                  <div className="Flex w-100 md:w-70 flex-col mt-10 text-center">
+                    <h1 className=" w-100 md:w-70 mt-2 h-10 justify-center mb-4 text-center flex items-center bg-black text-white rounded" >About us</h1>
                     <img className="h-80" src="https://blog-landing-xi.vercel.app/assets/image3-BrreTWNx.jpg" alt="" />
                     <h1 className="  justify-center text-center mt-2 text-red-500" >PERFUMES</h1>
                     <h2 className="  mt-2 text-2xl">Wearing this will make everyone love you</h2>
